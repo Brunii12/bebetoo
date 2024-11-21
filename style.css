@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #444;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* About section */
+.about {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.single-about-txt {
+    flex: 1 0 auto;
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.single-about-img {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.single-about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-list-icon {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-list-icon li {
+    margin: 0 5px;
+}
+
+.about-list-icon a {
+    color: #333;
+    font-size: 20px;
+}
+
+.about-list-icon a:hover {
+    color: #666;
+}
+
+/* Skills section */
+.skills-section {
+    margin-top: 20px;
+}
+
+.skills-section h3 {
+    text-align: center;
+}
+
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.skills-section li {
+    margin: 5px 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
